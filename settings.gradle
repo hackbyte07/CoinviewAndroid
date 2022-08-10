@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Coinview"
+include ':app'
+include ':data'
+include ':domain'
+include ':features'
+include ':features:authentication'
+include ':features:fetaure_home_screen'
+include ':features:common'
+include ':features:feature_search_screen'
+include ':features:feature_app_screen'
+include ':features:navigation'
+include ':features:feature_detail_screen'
+include ':features:feature_exchange_screen'
