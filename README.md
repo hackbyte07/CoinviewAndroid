@@ -1,6 +1,6 @@
 # CoinviewAndroid
 
-A multi module andorid app made with clean architecture principles and also use cust jwt authentication and use coingecko client.
+A multi module andorid app made with clean architecture principles and also uses jwt authentication and use coingecko client.
 
 the authentication server is in ktor and available in my repos 
 
